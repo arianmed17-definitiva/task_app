@@ -9,6 +9,8 @@ class LoginScreen extends StatelessWidget {
 
   final AuthService authService = AuthService();
 
+  LoginScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
 
